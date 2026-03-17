@@ -1,8 +1,9 @@
 {
-  "routes": [
+  "builds": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "src": "angular.json",
+      "use": "@vercel/static-build"
     }
-  ]
+  ],
+  "outputDirectory": "dist/imtiaz-portfolio"
 }
